@@ -6,7 +6,7 @@ listagem = os.listdir()
 arquivosfoco = []
 
 for f in listagem:
-    if f == "ram.py" or f == 'chave.key' or f == 'decri.py':
+    if f == "crip.py" or f == 'chave.key' or f == 'decri.py':
         continue
     if os.path.isfile(f):
         arquivosfoco.append(f)
